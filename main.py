@@ -38,8 +38,8 @@ class CPU(pyglet.window.Window):
     should_draw = False
     key_wait = False
 
-    funcmap = None # store op <-> method mappings here
-    vx = 0 # store register numbers here for op method access
+    funcmap = None # armazena opcodes
+    vx = 0 # armazena valores de registros
     vy = 0
 
     def __init__(self, *args, **kwargs):
